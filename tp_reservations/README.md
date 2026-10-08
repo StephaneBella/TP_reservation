@@ -20,7 +20,7 @@ python manage.py runserver
 ```
 
 Comptes de test (mot de passe : `motdepasse123`) : `alice`, `bob`, `charlie`.
-Super-utilisateur : `admin` / `admin123`.
+Super-utilisateur : `stephane` / `admin123`.
 
 ## Endpoints
 

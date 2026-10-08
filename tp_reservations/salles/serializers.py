@@ -11,8 +11,8 @@ A FAIRE :
 from rest_framework import serializers
 from rest_framework.permissions import IsAuthenticated
 
-from Django.Work.Tp_django.config import settings
-from TP_Reservations_Squelette.tp_reservations.salles.permissions import IsOwnerOrReadOnly
+from django.conf import settings
+from .permissions import IsOwnerOrReadOnly
 
 from .models import Reservation, Salle  
 
